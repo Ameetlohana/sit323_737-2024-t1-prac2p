@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alter Text with Button Click</title>
+    <style>
+        #text {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alter Text with Button Click</h1>
+    <p id="text">This is the original content.</p>
+    <button id="button">Press me!</button>
+    <script>
+        const button = document.querySelector("#button");
+        const text = document.querySelector("#text");
+        button.addEventListener("click", function () {
+            text.textContent = "This is the updated content!";
+        });
+    </script>
+</body>
+</html>
