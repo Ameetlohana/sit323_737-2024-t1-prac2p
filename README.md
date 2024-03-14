@@ -1,0 +1,1 @@
+This code demonstrates a simple webpage where clicking the button changes the text content dynamically. The JavaScript code selects the button and paragraph elements, then adds an event listener to the button. When the button is clicked, it triggers a function that updates the text content of the paragraph element.
